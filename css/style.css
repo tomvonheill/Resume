@@ -1,0 +1,134 @@
+/***
+----basic styles and fonts----
+***/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Lato, Arial, sans-serif;
+	font-weight: 200;
+	color: #2d3c49
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.social-text {
+	font-family: Lato, Arial, sans-serif;
+	color: #2d3c49;
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.profile-picture {
+	align-self: center;
+	width: 50%;
+	
+}
+
+.name {
+	flex: none;
+	font-size: 0.9375rem;
+	text-align: center;
+}
+
+.banner-picture {
+	width: 100%;
+}
+
+.intro {
+	font-family: Lato, Arial, sans-serif;
+	font-weight: 200;
+	color: #7d97ad;
+	text-align: center;
+	font-style: italic; 
+}
+
+.section-header {
+	text-align: center;
+}
+
+.education-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	align-items: center;
+}
+
+.school-title {
+	width: 200px;
+	font-size: 3vmin;
+}
+
+.year-graduated {
+	align-self: baseline;
+}
+
+.logo {
+	width: 50%;
+}
+
+.featured-work {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.project-img {
+	width: 50%;
+	
+}
+
+
+.left {
+	text-align: left;
+}
+
+.no-bullets {
+	list-style-type: none;
+}
+
+.foot {
+	display: flex;
+	flex-direction: column;
+	background-color: #7d97ad;
+}
+
+.footer-header {
+	align-self: center;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.link {
+	min-width: 48px;
+	min-height: 48px;
+}
+
+@media screen and (min-width: 500px){
+	.banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+
+	.profile-picture {
+	align-self: center;
+	width: 15%;
+	}
+}
